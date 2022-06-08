@@ -1,137 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Mondi Graphics</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Adobe, Agency, Artist, Brand, Client, Color, Concepts, Creative, Design, Detail, Digital, Graphic, Illustrator, InDesign, Layout, Marketing, Media, Photoshop, Portfolio, Print, Production, Strategy, Typography, Visual, Web" name="keywords">
-    <meta content="Mondi.com is Raymond Gamiao's personal portfolio showcasing his projects and a way to connect to clients." name="description">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="Adobe, Agency, Artist, Brand, Client, Color, Concepts, Creative, Design, Detail, Digital, Graphic, Illustrator, InDesign, Layout, Marketing, Media, Photoshop, Portfolio, Print, Production, Strategy, Typography, Visual, Web"
+      name="keywords"
+    />
+    <meta
+      content="Mondi.com is Raymond Gamiao's personal portfolio showcasing his projects and a way to connect to clients."
+      name="description"
+    />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
     <!-- Bootstrap Stylesheet -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-        crossorigin="anonymous"
-    >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- animate on scroll -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Custom Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <script src="https://kit.fontawesome.com/968057e630.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/968057e630.js"
+      crossorigin="anonymous"
+    ></script>
 
-<style>
-    .form h1, a {
+    <style>
+      .form h1,
+      a {
         color: #f03d5f;
-    }
-    .checkbox{
+      }
+      .checkbox {
         background: #fcfff4;
         padding: 8px;
-    }
-    .checkbox:checked {
-	background-color: #f03d5f;
-	border: 1px solid #f03d5f;
-	color: #111;
-    }
-    .signin{
+      }
+      .checkbox:checked {
+        background-color: #f03d5f;
+        border: 1px solid #f03d5f;
+        color: #111;
+      }
+      .signin {
         background-color: #f03d5f;
         color: white;
         border: solid 1px #f03d5f;
-    }
-    .signup{
+      }
+      .signup {
         background-color: white;
         color: #f03d5f;
         border: solid 1px #f03d5f;
-    }
-    .signin:hover{
+      }
+      .signin:hover {
         background-color: white;
         color: #f03d5f;
         border: solid 1px #f03d5f;
-    }
-    .signup:hover{
+      }
+      .signup:hover {
         background-color: #f03d5f;
         color: white;
         border: solid 1px #f03d5f;
-    }
-</style>
-
-</head>
-<body>
-
-
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div class="row mt-5 align-items-center py-5 px-lg-5">
-            <div class="col-md-6 text-center form px-lg-5 ">
-                <div class="col-12 py-3">
-                    <h1 class="h1">Create Account</h1>
-                </div>
-                <div class="col-12 py-3">
-                    <a type="button" class="btn btn-outline-primary rounded-circle"><i class="fa-brands fa-google"></i></a>
-                    <a type="button" class="btn btn-outline-primary rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a type="button" class="btn btn-outline-primary rounded-circle"><i class="fa-brands fa-twitter"></i></a>
-                    <a type="button" class="btn btn-outline-primary rounded-circle"><i class="fa-brands fa-vk"></i></a>
-                </div>
-                <div class="col-12 py-3">
-                    <span>or use your email for registration</span>
-                </div>
-                <div class="col-12 text-start ">
-                   <form>
-                    <div class="form-group mb-3">
-                        <input type="name" class="form-control" id="name"  placeholder="Name">
-                    </div>
-                    <div class="form-group mb-3">
-                        <input type="email" class="form-control" id="email"  placeholder="Email">
-                    </div>
-                    <div class="form-group mb-3">
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-check mb-5">
-                        <input type="checkbox" class="form-check-input checkbox" id="check1">
-                        <label class="form-check-label" for="check1">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
-                    </div>
-                        <!-- <button type="submit" class="signin btn btn-primary btn-lg px-5 me-4">Sign up</button>
+      <div class="row mt-5 align-items-center py-5 px-lg-5">
+        <div class="col-md-6 text-center form px-lg-5">
+          <div class="col-12 py-3">
+            <h1 class="h1">Create Account</h1>
+          </div>
+          <div class="col-12 py-3">
+            <a type="button" class="btn btn-outline-primary rounded-circle"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+            <a type="button" class="btn btn-outline-primary rounded-circle"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a type="button" class="btn btn-outline-primary rounded-circle"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a type="button" class="btn btn-outline-primary rounded-circle"
+              ><i class="fa-brands fa-vk"></i
+            ></a>
+          </div>
+          <div class="col-12 py-3">
+            <span>or use your email for registration</span>
+          </div>
+          <div class="col-12 text-start">
+            <form>
+              <div class="form-group mb-3">
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="form-check mb-5">
+                <input
+                  type="checkbox"
+                  class="form-check-input checkbox"
+                  id="check1"
+                />
+                <label class="form-check-label" for="check1"
+                  >I agree to the <a href="#">Terms</a> and
+                  <a href="#">Privacy Policy</a></label
+                >
+              </div>
+              <!-- <button type="submit" class="signin btn btn-primary btn-lg px-5 me-4">Sign up</button>
                         <button type="submit" class="signup btn btn-primary btn-lg px-5">Sign in</button>
                          -->
-                        <div class="row mx-0 gx-4">
-                            <div class="col-6  ">
-                                <button type="submit" class="signin btn btn-primary btn-lg w-100">Sign up</button>
-                            </div>
-                            <div class="col-6 ">
-                                <button type="submit" class="signup btn btn-primary btn-lg w-100">Sign in</button>
-                            </div>
-                        </div>
-                    </form>
+              <div class="row mx-0 gx-4">
+                <div class="col-6">
+                  <button
+                    type="submit"
+                    class="signin btn btn-primary btn-lg w-100"
+                  >
+                    Sign up
+                  </button>
                 </div>
-            </div>
-            <div class="col-md-6 align-items-center">
-                <img class="img-fluid wd-100" src="images/test.svg">
-            </div>
+                <div class="col-6">
+                  <button
+                    type="submit"
+                    class="signup btn btn-primary btn-lg w-100"
+                  >
+                    Sign in
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+        <div class="col-md-6 align-items-center">
+          <img class="img-fluid wd-100" src="images/test.svg" />
+        </div>
+      </div>
     </div>
 
-
-
- <!-- JavaScript Libraries -->
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-        crossorigin="anonymous">
-    </script>
+    <!-- JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <!-- animate on scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-    </body>
+  </body>
 </html>
